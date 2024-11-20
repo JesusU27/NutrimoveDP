@@ -1,5 +1,5 @@
 export const environment = {
   production: false,
-  serverBasePath: 'http://nutrimove.up.railway.app/api/v1',
+  serverBasePath: 'https://nutrimove.up.railway.app/api/v1',
 
 };
