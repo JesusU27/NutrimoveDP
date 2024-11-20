@@ -96,7 +96,6 @@ export class HomeContentComponent implements OnInit {
     console.log(this.user_id);
     this.dashboardService.getGoal(this.user_id).subscribe(goalData => {
       this.goal = goalData;
-        console.log("sklsks");
         console.log(this.goal);
     }, error => {
       console.error('error loading goal:', error);
